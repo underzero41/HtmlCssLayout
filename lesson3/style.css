@@ -155,23 +155,26 @@ body {
 }
 
 .text__block {
-    padding-left: 100px;
-    padding-right: 100px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+    text-align: center;
+    margin-top: 192px;
 }
 
-.text__suBblock {
+.title__block {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text__subBlock {
     color: #666;
     text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */ 
+    margin-top: 19px;
 }
 
 .item__top {
