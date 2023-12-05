@@ -37,6 +37,11 @@ body {
     text-decoration: none;
 }
 
+.center {
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
+}
+
 .main{
     margin-top: 160px;
     margin-bottom: 197px;
@@ -258,4 +263,16 @@ body {
     background: #FFF;
     box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
     padding-bottom: 25px;
+}
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 376px);
+        padding-right: calc(50% - 376px);
+    }
+    .top {
+        justify-content: center;
+        align-items: center;
+    }
+
 }
