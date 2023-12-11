@@ -100,6 +100,10 @@
     color: #222222;
   }
 
+  .color__text {
+    color: #F16D7F;
+  }
+
   .main__top__content {
     padding-left: 64px;
   }
@@ -269,4 +273,28 @@
     justify-content: center;
     align-items: center;
     gap: 22px;
+  }
+
+  @media (max-width: 1024px) {
+    .center {
+      padding-left: calc(50% - 368px);
+      padding-right: calc(50% - 368px);
+    }
+    .promo__title {
+      font-size: 44px;
+    }
+    .promo__heading {
+      font-size: 24px;
+    }
+    .main__top__content {
+      padding-left: 39px;
+    }
+
+    .sale__content__big {
+      margin-top: -30px;
+    }
+
+    .main__catalog__content {
+      gap: 16px;
+    }
   }
