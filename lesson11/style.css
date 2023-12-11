@@ -298,3 +298,83 @@
       gap: 16px;
     }
   }
+
+  @media (max-width: 767px) {
+    .login__icon {
+      display: none;
+    }
+
+    .cart__icon {
+      display: none;
+    }
+
+    .header__left {
+      margin-left: 16px;
+      gap: 41px;
+    }
+
+    .search__icon {
+      margin-top: 12px;
+    }
+
+    .burger__menu {
+      margin-right: 16px;
+    }
+
+    .main__top__img {
+      display: none;
+    }
+
+    .promo__title {
+      font-size: 38px;
+    }
+
+    .promo__heading {
+      font-size: 20px;
+    }
+
+    .main__top__info {
+      margin-top: 148px;
+      margin-bottom: 149px;
+      margin-left: 45px;
+      margin-right: 45px;
+    }
+
+    .sale {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sale__item {
+      width: 343px;
+      height: 247px;
+    }
+
+    .sale__item__big {
+      min-height: 111px;
+      height: 111px; 
+    }
+
+    .sale__content__big {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .main__catalog {
+      margin-top: -64px;
+    }
+
+    .main__catalog__content {
+      gap: 16.61px;
+    }
+
+    .main__button {
+      margin-top: 40.61px;
+      margin-bottom: 85px;
+    }
+
+  }
