@@ -275,6 +275,168 @@
     gap: 22px;
   }
 
+  .browse__all__product:hover {
+    background-color: #f16d7f;
+	  color: #fff;
+	  border: 1px solid #ff6a6a;
+  }
+
+  .advantages {
+    background-color: #222224;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+  }
+
+  .advantage {
+    margin-top: 103px;
+    margin-bottom: 104px;
+    text-align: center;
+  }
+
+  .advantage__heading {
+    margin-top: 28px;
+    margin-bottom: 16px;
+    color: #FBFBFB;
+    font-size: 19.96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .advantage__text {
+    width: 360px;
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 13.972px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .form {
+    background-image: url(img/Layer.jpg);
+    width: 100%;
+  }
+
+  .form__opacity {
+    background: rgba(244, 244, 244, 0.70);
+    width: 100%;
+  }
+
+  .form__content {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 126px;
+  }
+
+  .about__form {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 97px;
+    gap: 30px;
+  }
+
+  
+  .text__about {
+    max-width: 360px;
+	  text-align: center;
+	  color: #222224;
+	  font-size: 20px;
+  }
+
+  .text__about__italic {
+    font-style: italic;
+  }
+
+  .email__form {
+    padding-top: 150px; 
+  }
+
+  .form__text__bold {
+    color: #222224;
+	  text-align: center;
+	  font-size: 24px;
+	  font-weight: 700;
+	  line-height: 167.2%;
+  }
+
+  .form__text {
+    color: #222224;
+	  font-size: 18px;
+	  line-height: 167.2%;
+  }
+
+  .content__form {
+    display: flex;
+	  margin-top: 32px;
+  }
+
+  .content__form input {
+    padding: 7px 64px 7px 22px;
+    background-color: #e1e1e1;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #222224;
+    font-size: 14px;
+    }
+  
+    .content__form button {
+    padding: 7px;
+	  background-color: #f16d7f;
+	  border-top-right-radius: 15px;
+	  border-bottom-right-radius: 15px;
+	  color: #fff;
+	  text-align: center;
+	  font-size: 14px;
+  } 
+  
+  .footer {
+    background-color: #222224;
+  }
+  
+  .footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer__content p {
+    color: #fbfbfb;
+    font-size: 16px;
+    margin-left: 235px;
+  }
+  
+  .footer__content__icons {
+    display: flex;
+    gap: 8px;
+    padding: 24px 0;
+    margin-right: 230px;
+  }
+
+  .icons__border {
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .icons__border:hover {
+    background-color: #f16d7f;
+  }
+
+  .icons__border img {
+    position: absolute;
+  }
+
   @media (max-width: 1024px) {
     .center {
       padding-left: calc(50% - 368px);
@@ -297,6 +459,38 @@
     .main__catalog__content {
       gap: 16px;
     }
+
+    .advantages {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    
+    .advantage {
+      margin-top: 48px;
+      margin-bottom: 54px;
+    }
+
+    .form__content {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0px;
+    }
+
+    .content__form {
+      justify-content: center;
+    }
+
+    .about__form {
+      padding-top: 48px;
+    }
+
+    .email__form {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+
   }
 
   @media (max-width: 767px) {
@@ -377,4 +571,27 @@
       margin-bottom: 85px;
     }
 
+    .advantage {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    .content__form {
+      justify-content: center;
+    }
+
+    .footer__content {
+      flex-direction: column-reverse;
+    }
+
+    .footer__content p {
+      margin-left: 0px;
+      margin-bottom: 9px;
+    }
+
+    .footer__content__icons {
+      margin-right: 0px;
+      margin-top: 24px;
+    }
+    
   }
