@@ -560,6 +560,8 @@
 
     .main__catalog {
       margin-top: -64px;
+      padding-bottom: 20px;
+
     }
 
     .main__catalog__content {
@@ -567,8 +569,8 @@
     }
 
     .main__button {
-      margin-top: 40.61px;
-      margin-bottom: 85px;
+      margin-top: 41px;
+      margin-bottom: 41px;
     }
 
     .advantage {
